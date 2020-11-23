@@ -124,7 +124,7 @@ function getAPICall() {
   
   var radios = document.getElementsByName('launchWindow');
 
- var requestString = 'https://lldev.thespacedevs.com/2.1.0/launch/';
+ var requestString = 'https://ll.thespacedevs.com/2.1.0/launch/';
 
   for(var i = 0, length = radios.length; i < length; i++) {
     if(radios[i].checked) {
