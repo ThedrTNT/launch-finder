@@ -374,7 +374,7 @@ function getAPICall() {
 
         // Add weather info
         if(latitude != undefined && longitude != undefined) {
-          $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&units=imperial&APPID=11d8bb8df8f974f1a8818af4e34759fd", function(data){
+          $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&units=imperial&APPID=11d8bb8df8f974f1a8818af4e34759fd", function(data){
             console.log(data);
 
             var icon = "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png";
